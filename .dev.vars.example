@@ -1,0 +1,3 @@
+# Local Pages settings. Local preview does not send real email.
+CONTACT_ENABLED=false
+TURNSTILE_SITE_KEY=

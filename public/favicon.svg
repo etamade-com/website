@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">ETAMADE - m mark</title>
+  <desc>Original letter outline extracted from the ETAMADE wordmark, uniformly scaled and centered in a square viewBox.</desc>
+  <style>@media (prefers-color-scheme:dark){.mark{fill:#fff}}</style>
+  <path class="mark" fill="#000" transform="matrix(1.3078000934 0 0 1.3078000934 -121.7842129846 -4.1148995796)" d="M128.73,14.5c-2.63,0-7.4,2.12-8.75,6.51,0,0,0,0,0,0-.98-2.87-2.83-4.88-5.47-5.85-1.18-.43-2.51-.66-3.98-.66-2.63,0-6.63,1.48-7.95,4.71v-4.06s0,0,0,0h-6.36s0,0,0,0l-.04,12.98s0,0,0,0h6.36l.04-.98c0-4.94,3.62-6.63,6.53-6.63s5.32,2.19,5.32,6.3l-.04,1.31h0v12.61s0,0,0,0h6.36s0,0,0,0l.04-13.59c0-4.93,3.62-6.63,6.53-6.63s5.32,2.19,5.32,6.3l-.04,13.92s0,0,0,0h6.36s0,0,0,0l.04-14.35c0-7.46-3.67-11.9-10.25-11.9h0Z"/>
+</svg>

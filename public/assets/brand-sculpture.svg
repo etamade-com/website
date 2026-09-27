@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 410" fill="none">
+<defs>
+  <g id="m"><path transform="matrix(1.3078000934 0 0 1.3078000934 -121.7842129846 -4.1148995796)" d="M128.73,14.5c-2.63,0-7.4,2.12-8.75,6.51,0,0,0,0,0,0-.98-2.87-2.83-4.88-5.47-5.85-1.18-.43-2.51-.66-3.98-.66-2.63,0-6.63,1.48-7.95,4.71v-4.06s0,0,0,0h-6.36s0,0,0,0l-.04,12.98s0,0,0,0h6.36l.04-.98c0-4.94,3.62-6.63,6.53-6.63s5.32,2.19,5.32,6.3l-.04,1.31h0v12.61s0,0,0,0h6.36s0,0,0,0l.04-13.59c0-4.93,3.62-6.63,6.53-6.63s5.32,2.19,5.32,6.3l-.04,13.92s0,0,0,0h6.36s0,0,0,0l.04-14.35c0-7.46-3.67-11.9-10.25-11.9h0Z"/></g>
+  <linearGradient id="face" x1="0%" y1="0%" x2="85%" y2="100%"><stop stop-color="#fafbfc"/><stop offset=".23" stop-color="#e8eaee"/><stop offset=".43" stop-color="#c5cad1"/><stop offset=".64" stop-color="#fafbff"/><stop offset=".76" stop-color="#a1a9b5"/><stop offset="1" stop-color="#606c7b"/></linearGradient>
+  <linearGradient id="edge" x1="0%" y1="0%" x2="100%" y2="100%"><stop stop-color="#dce0e5"/><stop offset=".45" stop-color="#8a929e"/><stop offset="1" stop-color="#353e4c"/></linearGradient>
+  <linearGradient id="hairline" x1="0%" y1="0%" x2="100%" y2="100%"><stop stop-color="#fff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <radialGradient id="ground"><stop stop-color="#606777" stop-opacity=".26"/><stop offset="1" stop-color="#606777" stop-opacity="0"/></radialGradient>
+  <filter id="shadow" x="-40%" y="-40%" width="200%" height="220%"><feDropShadow dx="0" dy="2.2" stdDeviation="2" flood-color="#141c2b" flood-opacity=".18"/></filter>
+</defs>
+<ellipse cx="380" cy="354" rx="218" ry="27" fill="url(#ground)"/>
+<g transform="translate(184 6) scale(6.1)" filter="url(#shadow)">
+  <use href="#m" transform="translate(1 1.8)" fill="url(#edge)"/>
+  <use href="#m" transform="translate(.8 1.4)" fill="url(#edge)"/>
+  <use href="#m" transform="translate(.5 .9)" fill="url(#edge)"/>
+  <use href="#m" transform="translate(.2 .4)" fill="url(#edge)"/>
+  <use href="#m" fill="url(#face)" stroke="url(#hairline)" stroke-width=".14"/>
+</g>
+</svg>

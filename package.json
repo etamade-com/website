@@ -1,0 +1,25 @@
+{
+  "name": "etamade-website",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bilingual ETAMADE website for Cloudflare Pages with a private contact Worker.",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs && node scripts/preview.mjs",
+    "dev:cloudflare": "npm run build && wrangler pages dev",
+    "dev:worker": "wrangler dev --config workers/contact/wrangler.jsonc",
+    "test": "npm run build && node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "deploy:worker": "wrangler deploy --config workers/contact/wrangler.jsonc",
+    "deploy:pages": "npm run build && wrangler pages deploy dist --project-name etamade-website",
+    "smoke:live": "node scripts/smoke-live.mjs",
+    "test:browser": "python scripts/browser-v3-qa.py"
+  },
+  "devDependencies": {
+    "wrangler": "4.136.3"
+  }
+}

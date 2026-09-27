@@ -1,0 +1,23 @@
+/** Public information */
+export const site = {
+  name: 'ETAMADE',
+  legalName: 'ETAMADE S.R.L.',
+  taxId: 'RO45479346',
+  email: 'contact@etamade.com',
+  phone: '',
+  phoneDisplay: '',
+  city: 'Motru',
+  region: 'Gorj',
+  country: 'RO',
+  postalCode: '215200',
+  streetAddress: 'Aleea Topora\u0219ilor, Nr. 2',
+  tradeRegisterNumber: 'J2022000609409',
+  shareCapital: '',
+  domains: { en: 'https://etamade.com', ro: 'https://etamade.ro' },
+  pagesHost: 'etamade-website.pages.dev',
+  linkedin: 'https://www.linkedin.com/company/etamade',
+  github: 'https://github.com/etamade-com',
+  repository: 'https://github.com/etamade-com/website',
+  privacyUpdated: '2026-09-27',
+  enquiryRetentionMonths: 12,
+};

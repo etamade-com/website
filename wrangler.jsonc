@@ -1,0 +1,24 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "etamade-website",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-09-23",
+  "vars": {
+    // Public widget key, NOT the Turnstile secret. Set a real production key.
+    "TURNSTILE_SITE_KEY": "",
+    // Enable only after the private Worker and sender are configured.
+    "CONTACT_ENABLED": "false",
+    // Set your own GA4 measurement ID, then enable after the privacy checklist.
+    "ANALYTICS_ENABLED": "false",
+    "GA_MEASUREMENT_ID": ""
+  },
+  "services": [
+    { "binding": "CONTACT_WORKER", "service": "etamade-contact" }
+  ],
+  "env": {
+    "preview": {
+      "vars": { "TURNSTILE_SITE_KEY": "", "CONTACT_ENABLED": "false", "ANALYTICS_ENABLED": "false", "GA_MEASUREMENT_ID": "" },
+      "services": []
+    }
+  }
+}

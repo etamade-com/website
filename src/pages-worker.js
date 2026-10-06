@@ -61,9 +61,11 @@ function analyticsFrame(request, env, preview) {
   headers.set('X-Robots-Tag','noindex, nofollow');
   headers.set('Referrer-Policy','no-referrer');
   headers.set('Content-Security-Policy',[
-    "default-src 'none'", "script-src 'self' https://www.googletagmanager.com",
-    "connect-src https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://www.googletagmanager.com",
-    "img-src https://*.google-analytics.com", "style-src 'none'", "frame-src 'none'",
+    "default-src 'none'",
+    "script-src 'self' https://www.googletagmanager.com https://static.cloudflareinsights.com",
+    "connect-src 'self' https://*.google-analytics.com https://analytics.google.com https://*.analytics.google.com https://www.googletagmanager.com",
+    "img-src https://*.google-analytics.com",
+    "style-src 'none'", "frame-src 'none'",
     "frame-ancestors 'self'", "base-uri 'none'", "form-action 'none'", "object-src 'none'", 'upgrade-insecure-requests'
   ].join('; '));
   const html=`<!doctype html><html><head><meta charset="utf-8"><meta name="robots" content="noindex, nofollow"><title>Optional audience measurement</title><script type="module" src="${BUILD.analyticsScript}"></script></head><body data-measurement-id="${env.GA_MEASUREMENT_ID.trim()}"></body></html>`;
